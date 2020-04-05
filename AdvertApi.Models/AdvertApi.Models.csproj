@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Alex D (course)</Authors>
+    <Company>None</Company>
+    <Product>Web Advert Microservice</Product>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>AdvertApi.Models.Alexei000</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.105.8" />
+  </ItemGroup>
+
+</Project>
